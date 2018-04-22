@@ -1,6 +1,3 @@
-/* You can add global styles to this file, and also import other style files */
-
-
 // @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
@@ -9,7 +6,7 @@ $speed: 250ms;
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #F5F5F5;
+    // background-color: #F5F5F5;
     padding: 0;
     margin : 0;
 
@@ -28,7 +25,7 @@ body {
     }
 
     a {
-        $link-text-color      : #000;
+        $link-text-color: #000;
         $link-text-hover-color: lighten($link-text-color, 60%);
         
 
