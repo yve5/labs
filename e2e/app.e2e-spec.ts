@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('yve5-ng App', () => {
+describe('Labs App', () => {
   let page: AppPage;
 
   beforeEach(() => {
