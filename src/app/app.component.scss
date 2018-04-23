@@ -1,5 +1,5 @@
 
-$speed: 250ms;
+// $speed: 250ms;
 
 // .container {
 //     width : 400px;
@@ -50,76 +50,76 @@ $speed: 250ms;
 
 
 
-.strip {
-    $strip-width: 100px;
-    $strip-gutter: 4px;
+// .strip {
+//     $strip-width: 100px;
+//     $strip-gutter: 4px;
 
-    // $strip-default-color     : #FFFFFF;
-    $strip-default-color-text: #ccc;
-    $strip-shadow-color: #999;
+//     // $strip-default-color     : #FFFFFF;
+//     $strip-default-color-text: #ccc;
+//     $strip-shadow-color: #999;
 
-    &__container {
-        width   : ($strip-width + ($strip-gutter * 2)) * 3;
-        overflow: hidden;
+//     &__container {
+//         width   : ($strip-width + ($strip-gutter * 2)) * 3;
+//         overflow: hidden;
 
-        margin  : 0 auto;
-        padding: 10px;
+//         margin  : 0 auto;
+//         padding: 10px;
 
-        transition: all ease $speed;
+//         transition: all ease $speed;
 
-        @media screen and (max-width: 360px) {
-            width: $strip-width + ($strip-gutter * 2);
-        }
+//         @media screen and (max-width: 360px) {
+//             width: $strip-width + ($strip-gutter * 2);
+//         }
 
-        @media print {
-            display: none;
-        }
-    }
-
-    &__row {
-        width   : ($strip-width + ($strip-gutter * 2));
-        overflow: hidden;
-        float   : left;
-    }
-
-    cursor     : pointer;
-    user-select: none;
-    border     : none;
-
-    display: inline-block;
-    width  : $strip-width;
-    padding: 100px 0 0 0;
-    margin : $strip-gutter;
-
-    color: $strip-default-color-text;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 3em;
-
-    transition: all ease $speed;
-
-//     span& {
-//         position: relative;
-//         left: -2px;
-//         cursor: auto;
+//         @media print {
+//             display: none;
+//         }
 //     }
 
-    &--primary {
-        $strip-primary-color     : #7BFF4E;
-        $strip-primary-color-alt : darken($strip-primary-color, 15%);
-        $strip-primary-color-text: darken($strip-primary-color, 25%);
+//     &__row {
+//         width   : ($strip-width + ($strip-gutter * 2));
+//         overflow: hidden;
+//         float   : left;
+//     }
 
-        background-color: $strip-primary-color;
-        color: $strip-primary-color-text;
-        text-transform: uppercase;
+//     cursor     : pointer;
+//     user-select: none;
+//     border     : none;
 
-        &:visited {
-            color: $strip-primary-color-text;
-        }
+//     display: inline-block;
+//     width  : $strip-width;
+//     padding: 100px 0 0 0;
+//     margin : $strip-gutter;
 
-        &:hover {
-            background-color: $strip-primary-color-alt;
-            color: $strip-primary-color-text;
-        }
-    }
-}
+//     color: $strip-default-color-text;
+//     text-decoration: none;
+//     font-weight: bold;
+//     font-size: 3em;
+
+//     transition: all ease $speed;
+
+// //     span& {
+// //         position: relative;
+// //         left: -2px;
+// //         cursor: auto;
+// //     }
+
+//     &--primary {
+//         $strip-primary-color     : #7BFF4E;
+//         $strip-primary-color-alt : darken($strip-primary-color, 15%);
+//         $strip-primary-color-text: darken($strip-primary-color, 25%);
+
+//         background-color: $strip-primary-color;
+//         color: $strip-primary-color-text;
+//         text-transform: uppercase;
+
+//         &:visited {
+//             color: $strip-primary-color-text;
+//         }
+
+//         &:hover {
+//             background-color: $strip-primary-color-alt;
+//             color: $strip-primary-color-text;
+//         }
+//     }
+// }
