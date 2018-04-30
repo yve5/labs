@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
 
+html {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
 body {
+    vertical-align: middle;
+    display: table-cell;
+
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
