@@ -12,4 +12,8 @@ export class KnockoutComponent implements OnInit {
   ngOnInit() {
   }
 
+  scroll(el) {
+    el.scrollIntoView();
+  }
+  
 }

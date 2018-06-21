@@ -1,4 +1,6 @@
-<div class="modal">
+<div class="modal" #pageTop>
+  <a routerLink="/more" class="nav">Back to home</a>
+  
   <h1>Tutoriel KnockoutJS</h1>
 
   <p>
@@ -6,12 +8,6 @@
     de la bibliothèque KnockoutJS au sein des infrastrutures de la DSI.
   </p>
   
-  <ul>
-    <li>
-      <a routerLink="/more">Back to home</a>
-    </li>
-  </ul>
-
   <hr>
   <h2 id="anchor-intro">Introduction</h2>
 
@@ -583,5 +579,5 @@ ko.bindingHandlers.graph = &#123;
       <li><a href="https://fr.wikipedia.org/">Wikipedia</a></li>
     </ul>
 
-    <a href="">Back to top</a>
+  <a routerLink="/knockout" (click)="scroll(pageTop)" class="nav">Go to top</a>  
 </div>

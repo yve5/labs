@@ -8,6 +8,7 @@ import { RoutingModule } from './/routing.module';
 import { MoreComponent } from './more/more.component';
 import { CopyrightComponent } from './copyright/copyright.component';
 import { KnockoutComponent } from './knockout/knockout.component';
+import { IllusionComponent } from './illusion/illusion.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { KnockoutComponent } from './knockout/knockout.component';
     HomeComponent,
     MoreComponent,
     CopyrightComponent,
-    KnockoutComponent
+    KnockoutComponent,
+    IllusionComponent
   ],
   imports: [
     BrowserModule,
