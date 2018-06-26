@@ -1,0 +1,13 @@
+// Colors
+@import 'palette';
+
+// Brand colors
+// $color-primary: #ff9a9e; // pink variation
+// $color-secondary: #fad0c4; // pink variation
+// $color-tertiary: #99411F; // pink variation
+$color-primary: $color-blue-200;
+$color-secondary: $color-blue-50;
+$color-tertiary: $color-blue-600;
+
+// Patterns
+@import 'pattern';
