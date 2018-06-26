@@ -1,90 +1,11 @@
-
-// todo : color variables
-
+@import '../../../shared/index';
 
 .modal {
-    background-color: #fff;
-    display: inline-block;
-    margin: 10px 0;
-
-    width: 700px;
+    @extend %modal-pattern;
     text-align: left;
+    width: 700px;
 
     @media all and (max-width: 699px) {
         width: 300px;
-    }
-    
-    box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14),
-                0 9px 46px 8px rgba(0,0,0,0.12),
-                0 11px 15px -7px rgba(0,0,0,0.2);
-    
-    h1 {
-        text-align: center;
-        padding: 40px;
-        margin: 0;
-    }
-
-    h3 {
-        padding: 20px 40px 0 40px;
-    }
-
-    h2, h4,
-    p {
-        padding: 0 40px 0 40px;
-    }
-
-    h4 {
-        font-weight: bold;
-    }
-
-    hr {
-        border-width: 1px 0 0 0;
-        border-style: solid;
-        border-color: #eee;
-    }
-
-    pre {
-        background: #333;
-        color: #fff;
-        font-family: consolas;
-        font-size: 13px;
-        padding: 10px 40px;
-
-        overflow: auto;
-    }
-
-    ul {
-        padding: 0;
-        margin: 0 40px 0 60px;
-        
-        li {
-            padding: 0;
-            margin: 0;
-        }
-    }
-
-    a {
-        color: #000;
-        
-        &:active,
-        &:hover {
-            color: #666;
-        }
-
-        &.nav {
-            display: inline-block;
-            padding: 10px 10px 10px 40px;
-            margin: 10px 0;
-            
-            text-decoration: none;
-            color: #999;
-
-            transition: background 250ms ease;
-
-            &:active,
-            &:hover {
-                background: #F5F5F5;
-            }
-        }
     }
 }
