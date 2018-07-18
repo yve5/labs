@@ -9,6 +9,7 @@ import { MoreComponent } from './more/more.component';
 import { CopyrightComponent } from './copyright/copyright.component';
 import { KnockoutComponent } from './knockout/knockout.component';
 import { IllusionComponent } from './illusion/illusion.component';
+import { ErrorComponent } from './error/error.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { IllusionComponent } from './illusion/illusion.component';
     MoreComponent,
     CopyrightComponent,
     KnockoutComponent,
-    IllusionComponent
+    IllusionComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
