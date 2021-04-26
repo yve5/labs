@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match expected snapshot. default 1`] = `
+<div
+  className="container"
+>
+  <h1>
+    Labs
+  </h1>
+  <ul>
+    <li>
+      <a
+        href="https://yve5.github.io/pairs"
+        target="blank"
+      >
+        Pairs Game
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://yve5.github.io/lipstickcss"
+        target="blank"
+      >
+        Lipstick CSS
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://yve5.github.io/satisfaction"
+        target="blank"
+      >
+        Confidence
+      </a>
+    </li>
+    <li>
+      <a
+        href="#/more"
+        onClick={[Function]}
+      >
+        More...
+      </a>
+    </li>
+  </ul>
+</div>
+`;

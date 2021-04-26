@@ -1,6 +1,0 @@
-@import '../../shared/index';
-
-.modal {
-    @extend %modal-pattern;
-    min-width: 300px;
-}

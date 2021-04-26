@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`More should match expected snapshot. default 1`] = `
+<div
+  className="container"
+>
+  <a
+    className="container__nav"
+    href="#/"
+    onClick={[Function]}
+  >
+    Back to home
+  </a>
+  <h1>
+    More...
+  </h1>
+  <ul>
+    <li>
+      <a
+        href="https://yve5.github.io/visio"
+        target="blank"
+      >
+        Room booking
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://yve5.github.io/showcase"
+        target="blank"
+      >
+        Showcase
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://yve5.github.io/contract"
+        target="blank"
+      >
+        Contracts
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://yve5.github.io/tiles"
+        target="blank"
+      >
+        Tiles
+      </a>
+    </li>
+  </ul>
+</div>
+`;
